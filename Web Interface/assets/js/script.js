@@ -33,9 +33,14 @@ function toggleDiv() {
 }
 
 const firebaseConfig = {
-    /*
-    Fill in firebase config
-    */
+    apiKey: "AIzaSyD682BjVNolPMwIvQO5WbXVZs7hdXrK80w",
+    authDomain: "homefeeder-3ff3e.firebaseapp.com",
+    databaseURL: "https://homefeeder-3ff3e-default-rtdb.firebaseio.com",
+    projectId: "homefeeder-3ff3e",
+    storageBucket: "homefeeder-3ff3e.appspot.com",
+    messagingSenderId: "937428286260",
+    appId: "1:937428286260:web:d1fdcf8f95946569db4361",
+    measurementId: "G-0NW7K1KVNQ"
 };
 firebase.initializeApp(firebaseConfig);
 
